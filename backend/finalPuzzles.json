@@ -1,0 +1,470 @@
+[
+  {
+    "white": "Yakov25",
+    "black": "Rituaal",
+    "fens": [
+      "r2r4/pkp5/qpN4p/3Q2Bp/8/8/PP3PP1/1KR5 w - - 1 27",
+      "r2N4/pkp5/qp5p/3Q2Bp/8/8/PP3PP1/1KR5 b - - 0 27",
+      "r1kN4/p1p5/qp5p/3Q2Bp/8/8/PP3PP1/1KR5 w - - 1 28",
+      "Q1kN4/p1p5/qp5p/6Bp/8/8/PP3PP1/1KR5 b - - 0 28"
+    ]
+  },
+  {
+    "white": "Yakov25",
+    "black": "maphero007",
+    "fens": [
+      "1r3k2/p2R4/6B1/2p1P3/5r2/2P5/P1P5/2K5 w - - 1 28",
+      "1r3k2/p2R4/4P1B1/2p5/5r2/2P5/P1P5/2K5 b - - 0 28",
+      "1r3k2/p2R4/4P1B1/2p5/8/2P5/P1P5/2K2r2 w - - 1 29",
+      "1r3k2/p2R4/4P1B1/2p5/8/2P5/P1PK4/5r2 b - - 2 29"
+    ]
+  },
+  {
+    "white": "maphero007",
+    "black": "Yakov25",
+    "fens": [
+      "2k5/pp6/q2P2p1/8/2n2B2/2PQ2Pp/PP5P/1K1Rr3 b - - 0 28",
+      "2k5/pp6/q2P2p1/8/5B2/n1PQ2Pp/PP5P/1K1Rr3 w - - 1 29",
+      "2k5/pp6/q2P2p1/8/5B2/n1PQ2Pp/PP5P/2KRr3 b - - 2 29",
+      "2k5/pp6/3P2p1/8/5B2/n1Pq2Pp/PP5P/2KRr3 w - - 0 30",
+      "2k5/pp6/3P2p1/8/5B2/n1Pq2Pp/PP5P/2K1R3 b - - 0 30",
+      "2k5/pp6/3P2p1/8/5B2/n1P3Pp/PPq4P/2K1R3 w - - 1 31"
+    ]
+  },
+  {
+    "white": "Yakov25",
+    "black": "SiegfriedvonXanten52",
+    "fens": [
+      "rnq1r1k1/ppp3b1/4p1p1/6N1/3P2p1/BQP5/P4P2/R3K2R w KQ - 2 17",
+      "rnq1r1k1/ppp3b1/4p1p1/6N1/3P2p1/B1P5/P1Q2P2/R3K2R b KQ - 3 17",
+      "rnq1r1k1/ppp3b1/6p1/4p1N1/3P2p1/B1P5/P1Q2P2/R3K2R w KQ - 0 18",
+      "rnq1r1k1/ppp3b1/6Q1/4p1N1/3P2p1/B1P5/P4P2/R3K2R b KQ - 0 18"
+    ]
+  },
+  {
+    "white": "Yakov25",
+    "black": "SiegfriedvonXanten52",
+    "fens": [
+      "2r3k1/pp3R1p/6pP/5b2/7b/1B3P2/P2B2P1/3K4 w - - 1 29",
+      "2r3k1/pp5p/6pP/5R2/7b/1B3P2/P2B2P1/3K4 b - - 0 29"
+    ]
+  },
+  {
+    "white": "SiegfriedvonXanten52",
+    "black": "Yakov25",
+    "fens": [
+      "2k5/ppp1Rpp1/8/8/2P5/6bb/PP4r1/5K2 b - - 0 26",
+      "2k5/ppp1Rpp1/8/8/2P5/6bb/PP3r2/5K2 w - - 1 27",
+      "2k5/ppp1Rpp1/8/8/2P5/6bb/PP3r2/4K3 b - - 2 27",
+      "2k5/ppp1Rpp1/5r2/8/2P5/6bb/PP6/4K3 w - - 3 28"
+    ]
+  },
+  {
+    "white": "Yakov25",
+    "black": "SiegfriedvonXanten52",
+    "fens": [
+      "rn3rk1/pp4bR/3p2q1/4pbN1/3P3Q/2P5/P4PP1/R1B1KB2 w Q - 0 17",
+      "rn3rk1/pp4bR/3p2q1/4pbN1/2BP3Q/2P5/P4PP1/R1B1K3 b Q - 1 17",
+      "rn4k1/pp3rbR/3p2q1/4pbN1/2BP3Q/2P5/P4PP1/R1B1K3 w Q - 2 18",
+      "rn4k1/pp3BbR/3p2q1/4pbN1/3P3Q/2P5/P4PP1/R1B1K3 b Q - 0 18"
+    ]
+  },
+  {
+    "white": "SiegfriedvonXanten52",
+    "black": "Yakov25",
+    "fens": [
+      "8/p5p1/1p4rk/8/4Q3/4P1P1/PPP2P2/3R1RK1 w - - 1 37",
+      "8/p5p1/1p4rk/3R4/4Q3/4P1P1/PPP2P2/5RK1 b - - 2 37",
+      "8/p5p1/1p5k/3R2r1/4Q3/4P1P1/PPP2P2/5RK1 w - - 3 38",
+      "8/p5p1/1p5k/3R2r1/4Q3/4P1P1/PPP2PK1/5R2 b - - 4 38"
+    ]
+  },
+  {
+    "white": "SiegfriedvonXanten52",
+    "black": "Yakov25",
+    "fens": [
+      "r3k2r/pp1n1pp1/4p3/3p4/q7/1P2K1P1/P2Q3P/2R5 b kq - 0 27",
+      "r3k2r/pp1n1pp1/4p3/3p4/4q3/1P2K1P1/P2Q3P/2R5 w kq - 1 28",
+      "r3k2r/pp1n1pp1/4p3/3p4/4q3/1P4P1/P2Q1K1P/2R5 b kq - 2 28",
+      "r3k3/pp1n1pp1/4p3/3p4/4q3/1P4P1/P2Q1K1r/2R5 w q - 0 29"
+    ]
+  },
+  {
+    "white": "Yakov25",
+    "black": "SiegfriedvonXanten52",
+    "fens": [
+      "r6k/R4p1p/5N1P/4p1P1/5p2/5P2/b5K1/8 b - - 0 40",
+      "r6k/R4p1p/4bN1P/4p1P1/5p2/5P2/6K1/8 w - - 1 41",
+      "r6k/R4p1p/4bN1P/4p1P1/5p2/5P2/6K1/8 w - - 1 41",
+      "R6k/5p1p/4bN1P/4p1P1/5p2/5P2/6K1/8 b - - 0 41"
+    ]
+  },
+  {
+    "white": "Yakov25",
+    "black": "SiegfriedvonXanten52",
+    "fens": [
+      "rn3rk1/pp2pp2/2pq3Q/3p3p/2BPP3/2N2P2/PPP2P2/2KR4 w - - 2 18",
+      "rn3rk1/pp2pp2/2pq3Q/3p3p/2BPP3/2N2P2/PPP2P2/2K3R1 b - - 3 18",
+      "rn3rk1/pp2pp2/2p3qQ/3p3p/2BPP3/2N2P2/PPP2P2/2K3R1 w - - 4 19",
+      "rn3rk1/pp2pp2/2p3RQ/3p3p/2BPP3/2N2P2/PPP2P2/2K5 b - - 0 19",
+      "rn3rk1/pp2p3/2p3pQ/3p3p/2BPP3/2N2P2/PPP2P2/2K5 w - - 0 20",
+      "rn3rk1/pp2p3/2p3Q1/3p3p/2BPP3/2N2P2/PPP2P2/2K5 b - - 0 20"
+    ]
+  },
+  {
+    "white": "gepard2014",
+    "black": "chess-art-us",
+    "fens": [
+      "2R1Q3/pp1r2k1/3q1pp1/8/4p2p/8/P4PPP/5RK1 w - - 2 32",
+      "2R4Q/pp1r2k1/3q1pp1/8/4p2p/8/P4PPP/5RK1 b - - 3 32",
+      "2R4Q/pp1r1k2/3q1pp1/8/4p2p/8/P4PPP/5RK1 w - - 4 33",
+      "2R3Q1/pp1r1k2/3q1pp1/8/4p2p/8/P4PPP/5RK1 b - - 5 33"
+    ]
+  },
+  {
+    "white": "chess-art-us",
+    "black": "gepard2014",
+    "fens": [
+      "2k5/ppp1q3/3nb3/1P2Qpr1/3p1P2/3P3P/P2B2B1/4R2K w - - 1 29",
+      "2k5/ppp1q3/3nb3/1P2QpP1/3p4/3P3P/P2B2B1/4R2K b - - 0 29"
+    ]
+  },
+  {
+    "white": "gepard2014",
+    "black": "chess-art-us",
+    "fens": [
+      "3rr1k1/pq2pp2/1p4p1/2p4p/7P/3PR1P1/2P1QP2/1R4Kb b - - 2 28",
+      "3rr1k1/p3pp2/1p4p1/2p4p/7P/3PR1P1/2P1QPq1/1R4Kb w - - 3 29"
+    ]
+  },
+  {
+    "white": "chess-art-us",
+    "black": "gepard2014",
+    "fens": [
+      "rnb2rk1/ppp3b1/3p2p1/2P1ppq1/1P4n1/3P2P1/PBNNPPB1/1R1Q1RK1 w - - 1 15",
+      "rnb2rk1/ppp3b1/3p2p1/2P1ppq1/1P4n1/3P1NP1/PBN1PPB1/1R1Q1RK1 b - - 2 15",
+      "rnb2rk1/ppp3b1/3p2p1/2P1pp1q/1P4n1/3P1NP1/PBN1PPB1/1R1Q1RK1 w - - 3 16",
+      "rnb2rk1/ppp3b1/3p2p1/2P1pp1q/1P4n1/3PNNP1/PB2PPB1/1R1Q1RK1 b - - 4 16"
+    ]
+  },
+  {
+    "white": "chess-art-us",
+    "black": "gepard2014",
+    "fens": [
+      "2bq1r2/1pp2pkp/3pn1p1/8/2P3n1/1P1P2P1/3N1PBP/N2Q1RK1 w - - 0 18",
+      "2bq1r2/1pp2pkp/3pn1p1/8/2P3n1/1P1P2P1/2NN1PBP/3Q1RK1 b - - 1 18",
+      "2bq1r2/1pp2pkp/3pnnp1/8/2P5/1P1P2P1/2NN1PBP/3Q1RK1 w - - 2 19",
+      "2bq1r2/1pp2pkp/3pnnp1/8/2PP4/1P4P1/2NN1PBP/3Q1RK1 b - - 0 19"
+    ]
+  },
+  {
+    "white": "gepard2014",
+    "black": "chess-art-us",
+    "fens": [
+      "2r2rk1/pp3p1p/6p1/P3n3/8/5Bq1/1P2Q3/R1B2R1K b - - 3 22",
+      "4rrk1/pp3p1p/6p1/P3n3/8/5Bq1/1P2Q3/R1B2R1K w - - 4 23",
+      "4rrk1/pp3p1p/6p1/P3n3/8/4BBq1/1P2Q3/R4R1K b - - 5 23",
+      "4rrk1/pp3p1p/6p1/P3n3/7q/4BB2/1P2Q3/R4R1K w - - 6 24"
+    ]
+  },
+  {
+    "white": "MaratGilfanovYoutube",
+    "black": "chess-art-us",
+    "fens": [
+      "r1b1k2r/pp3ppp/2n3n1/2p5/3pP3/3P1NP1/PqPQN2P/R3KB1R b KQkq - 1 14",
+      "r1b1k2r/pp3ppp/2n3n1/2p5/3pP3/3P1NP1/P1PQN2P/q3KB1R w Kkq - 0 15",
+      "r1b1k2r/pp3ppp/2n3n1/2p5/3pP3/3P1NP1/P1PQNK1P/q4B1R b kq - 1 15",
+      "r1b1k2r/pp3ppp/2n3n1/2p5/3pP3/3P1NP1/q1PQNK1P/5B1R w kq - 0 16"
+    ]
+  },
+  {
+    "white": "MaratGilfanovYoutube",
+    "black": "chess-art-us",
+    "fens": [
+      "3rr1k1/1pp2pp1/4bnqp/4pN2/2p1P3/4NQPP/PPP2P1K/3R2R1 w - - 3 25",
+      "3Rr1k1/1pp2pp1/4bnqp/4pN2/2p1P3/4NQPP/PPP2P1K/6R1 b - - 0 25",
+      "3r2k1/1pp2pp1/4bnqp/4pN2/2p1P3/4NQPP/PPP2P1K/6R1 w - - 0 26",
+      "3r2k1/1pp2pp1/4bnqp/4pN2/2p1P3/4NQPP/PPP2P1K/3R4 b - - 1 26"
+    ]
+  },
+  {
+    "white": "gmbrewchess",
+    "black": "king_WWWWWW",
+    "fens": [
+      "r1b1k2r/ppq2ppp/2n1p3/3p4/3P1B2/4P3/P2Q1PPP/2R1KB1R w Kkq - 1 13",
+      "r1b1k2r/ppB2ppp/2n1p3/3p4/3P4/4P3/P2Q1PPP/2R1KB1R b Kkq - 0 13",
+      "r3k2r/ppBb1ppp/2n1p3/3p4/3P4/4P3/P2Q1PPP/2R1KB1R w Kkq - 1 14",
+      "r3k2r/ppBb1ppp/2n1p3/1B1p4/3P4/4P3/P2Q1PPP/2R1K2R b Kkq - 2 14"
+    ]
+  },
+  {
+    "white": "sillyMASTER",
+    "black": "gmbrewchess",
+    "fens": [
+      "4rr1k/1p1b2pp/p4p2/4n2q/1PB5/P1B1N2P/5P2/2R1RQK1 b - - 0 24",
+      "4rr1k/1p1b2pp/p4p2/7q/1PB5/P1B1Nn1P/5P2/2R1RQK1 w - - 1 25",
+      "4rr1k/1p1b2pp/p4p2/7q/1PB5/P1B1Nn1P/5P2/2R1RQ1K b - - 2 25",
+      "4rr1k/1p4pp/p4p2/7q/1PB5/P1B1Nn1b/5P2/2R1RQ1K w - - 0 26"
+    ]
+  },
+  {
+    "white": "gmbrewchess",
+    "black": "sillyMASTER",
+    "fens": [
+      "3r2k1/1p5p/2p1bq2/p4p2/PnB1p3/NP5P/2P2PP1/2Q1R1K1 w - - 0 26",
+      "3r2k1/1p5p/2p1Bq2/p4p2/Pn2p3/NP5P/2P2PP1/2Q1R1K1 b - - 0 26",
+      "3r2k1/1p5p/2p1q3/p4p2/Pn2p3/NP5P/2P2PP1/2Q1R1K1 w - - 0 27",
+      "3r2k1/1p5p/2p1q3/p4pQ1/Pn2p3/NP5P/2P2PP1/4R1K1 b - - 1 27"
+    ]
+  },
+  {
+    "white": "gmbrewchess",
+    "black": "gmadham",
+    "fens": [
+      "8/4k3/3p4/p1pP1p1q/2Pb4/1P1Q1R2/4KP1r/2B5 b - - 2 47",
+      "8/4k3/3p4/p1pP1p1q/2Pb4/1P1Q1R2/4Kr2/2B5 w - - 0 48",
+      "8/4k3/3p4/p1pP1p1q/2Pb4/1P1Q1R2/5r2/2B1K3 b - - 1 48",
+      "8/4k3/3p4/p1pP1p2/2Pb4/1P1Q1q2/5r2/2B1K3 w - - 0 49"
+    ]
+  },
+  {
+    "white": "gmbrewchess",
+    "black": "gmadham",
+    "fens": [
+      "6b1/8/4n1k1/4Q1p1/4pp2/7P/1B1r1PK1/8 w - - 6 46",
+      "6b1/8/4nQk1/6p1/4pp2/7P/1B1r1PK1/8 b - - 7 46",
+      "6b1/8/4nQ2/6pk/4pp2/7P/1B1r1PK1/8 w - - 8 47",
+      "6bQ/8/4n3/6pk/4pp2/7P/1B1r1PK1/8 b - - 9 47",
+      "6bQ/8/4n1k1/6p1/4pp2/7P/1B1r1PK1/8 w - - 10 48",
+      "6Q1/8/4n1k1/6p1/4pp2/7P/1B1r1PK1/8 b - - 0 48"
+    ]
+  },
+  {
+    "white": "gmbrewchess",
+    "black": "gmadham",
+    "fens": [
+      "6k1/p6p/2p3p1/2b2p2/1NP1p3/P5PK/3r1r1P/2R2R2 b - - 1 35",
+      "6k1/p6p/2p3p1/2b2p2/1NP1p3/P5PK/3r3r/2R2R2 w - - 0 36"
+    ]
+  },
+  {
+    "white": "jacf18",
+    "black": "gmbrewchess",
+    "fens": [
+      "8/pp2R1pk/6rp/8/1P2N3/2PQ3P/5qP1/7K b - - 12 38",
+      "8/pp2R1pk/6rp/8/1P2N3/2PQ3P/6q1/7K w - - 0 39"
+    ]
+  },
+  {
+    "white": "gmbrewchess",
+    "black": "jacf18",
+    "fens": [
+      "Q4bk1/8/2p3pp/2B5/2P1p1P1/1P6/8/3n2K1 b - - 2 43",
+      "Q4b2/5k2/2p3pp/2B5/2P1p1P1/1P6/8/3n2K1 w - - 3 44",
+      "5Q2/5k2/2p3pp/2B5/2P1p1P1/1P6/8/3n2K1 b - - 0 44",
+      "5Q2/8/2p1k1pp/2B5/2P1p1P1/1P6/8/3n2K1 w - - 1 45"
+    ]
+  },
+  {
+    "white": "Formidablenights2009",
+    "black": "gmbrewchess",
+    "fens": [
+      "r2q2k1/pp3pp1/8/2B3P1/4r3/3b4/PP2nPPK/R2Q3R b - - 0 24",
+      "r2q2k1/pp3pp1/8/2B3P1/7r/3b4/PP2nPPK/R2Q3R w - - 1 25"
+    ]
+  },
+  {
+    "white": "gmbrewchess",
+    "black": "Formidablenights2009",
+    "fens": [
+      "2b4r/p1N2ppp/2N1p1k1/3p2n1/3P1B1P/2b1PP2/P3K1P1/7R w - - 1 21",
+      "2b4r/p1N2ppp/2N1p1k1/3p2P1/3P1B2/2b1PP2/P3K1P1/7R b - - 0 21"
+    ]
+  },
+  {
+    "white": "Andrey11976",
+    "black": "Dr_Tiger",
+    "fens": [
+      "3r2k1/p4p1p/1p4p1/1Nn5/2P5/P5PP/2Q3PK/4r3 b - - 2 28",
+      "6k1/p4p1p/1p4p1/1Nn5/2P5/P5PP/2Q3PK/3rr3 w - - 3 29",
+      "6k1/p4p1p/1p4p1/1Nn5/2P3P1/P6P/2Q3PK/3rr3 b - - 0 29",
+      "6k1/p4p1p/1p4p1/1N6/2P1n1P1/P6P/2Q3PK/3rr3 w - - 1 30"
+    ]
+  },
+  {
+    "white": "Andrey11976",
+    "black": "Dr_Tiger",
+    "fens": [
+      "2r3k1/2P2pp1/1p1b2rp/p7/3Q3q/P3PpN1/1PR2P2/2R3K1 b - - 1 33",
+      "2r3k1/2P2pp1/1p4rp/p7/3Q3q/P3Ppb1/1PR2P2/2R3K1 w - - 0 34"
+    ]
+  },
+  {
+    "white": "Dr_Tiger",
+    "black": "AxAxAxaaaXaa",
+    "fens": [
+      "4k3/1p5R/p4K2/4Bp2/3P2p1/8/5r2/8 w - - 2 41",
+      "4k3/1p5R/p3K3/4Bp2/3P2p1/8/5r2/8 b - - 3 41",
+      "4k3/1p5R/p3K3/4Bp2/3P2p1/8/7r/8 w - - 4 42",
+      "4k3/1p6/p3K3/4Bp2/3P2p1/8/7R/8 b - - 0 42"
+    ]
+  },
+  {
+    "white": "AxAxAxaaaXaa",
+    "black": "Dr_Tiger",
+    "fens": [
+      "3R4/5pkp/2N3p1/1p1P4/3NPn2/b1P5/3K4/1q2R3 b - - 5 35",
+      "3R4/5pkp/2N3p1/1p1P4/3NPn2/b1P5/1q1K4/4R3 w - - 6 36",
+      "3R4/5pkp/2N3p1/1p1P4/3NPn2/b1P1K3/1q6/4R3 b - - 7 36",
+      "3R4/5pkp/2N3p1/1p1P4/3NP3/b1P1K3/1q4n1/4R3 w - - 8 37"
+    ]
+  },
+  {
+    "white": "Dr_Tiger",
+    "black": "tufferguy",
+    "fens": [
+      "3q3Q/4k1r1/r3pp2/p1p3N1/7R/8/1P3PPP/4R1K1 w - - 3 34",
+      "3q4/4k1Q1/r3pp2/p1p3N1/7R/8/1P3PPP/4R1K1 b - - 0 34",
+      "3q4/6Q1/r2kpp2/p1p3N1/7R/8/1P3PPP/4R1K1 w - - 1 35",
+      "3q4/5NQ1/r2kpp2/p1p5/7R/8/1P3PPP/4R1K1 b - - 2 35"
+    ]
+  },
+  {
+    "white": "Dr_Tiger",
+    "black": "tufferguy",
+    "fens": [
+      "6r1/1p1R2P1/pknN4/8/4N1p1/1BP5/PP5P/2KR4 w - - 1 32",
+      "6B1/1p1R2P1/pknN4/8/4N1p1/2P5/PP5P/2KR4 b - - 0 32"
+    ]
+  },
+  {
+    "white": "AVS2000",
+    "black": "MightActuallyTry",
+    "fens": [
+      "1Q6/pp2k1p1/2p2rBp/4P3/3P3q/4n3/PP3p1P/5R1K w - - 10 37",
+      "1Q6/pp2k1p1/2p2PBp/8/3P3q/4n3/PP3p1P/5R1K b - - 0 37",
+      "1Q6/pp4p1/2p2kBp/8/3P3q/4n3/PP3p1P/5R1K w - - 0 38",
+      "1Q6/pp4p1/2p2kBp/8/3P3q/4n3/PP3R1P/7K b - - 0 38"
+    ]
+  },
+  {
+    "white": "Cerrh34",
+    "black": "AVS2000",
+    "fens": [
+      "r1b2b1r/2P3pp/1R3pk1/p3B3/Q1N5/8/P4PqP/4K2R w K - 0 24",
+      "r1b1Qb1r/2P3pp/1R3pk1/p3B3/2N5/8/P4PqP/4K2R b K - 1 24",
+      "r1b1Qb1r/2P3pp/1R3p2/p3B3/2N3kP/8/P4Pq1/4K2R w K - 1 26",
+      "r1b1Qb1r/2P3pp/1R3p2/p3B3/6kP/4N3/P4Pq1/4K2R b K - 2 26",
+      "r1b1Qb1r/2P3pp/1R3p2/p3B3/7P/4Nk2/P4Pq1/4K2R w K - 3 27",
+      "r1b1Qb1r/2P3pp/1R3p2/p3B3/7P/5k2/P4PN1/4K2R b K - 0 27"
+    ]
+  },
+  {
+    "white": "MaratGilfanovYoutube",
+    "black": "ManiacalZerker",
+    "fens": [
+      "6k1/1R3pp1/4p3/p3PnNp/2P1Q2P/6P1/q2r1PK1/8 w - - 2 34",
+      "6k1/1R3pp1/4p3/p3PnNp/2P2Q1P/6P1/q2r1PK1/8 b - - 3 34",
+      "3r2k1/1R3pp1/4p3/p3PnNp/2P2Q1P/6P1/q4PK1/8 w - - 4 35",
+      "3r2k1/5Rp1/4p3/p3PnNp/2P2Q1P/6P1/q4PK1/8 b - - 0 35"
+    ]
+  },
+  {
+    "white": "MaratGilfanovYoutube",
+    "black": "ManiacalZerker",
+    "fens": [
+      "3r3r/pp3pk1/2pQ1Np1/q3p1B1/2B1P2p/2P4P/PP3PP1/R5K1 w - - 1 25",
+      "3r3r/pp3pk1/2pQ2p1/q3p1BN/2B1P2p/2P4P/PP3PP1/R5K1 b - - 2 25",
+      "3r4/pp3pk1/2pQ2p1/q3p1Br/2B1P2p/2P4P/PP3PP1/R5K1 w - - 0 26",
+      "3r4/pp3pk1/2p2Qp1/q3p1Br/2B1P2p/2P4P/PP3PP1/R5K1 b - - 1 26"
+    ]
+  },
+  {
+    "white": "ManiacalZerker",
+    "black": "MaratGilfanovYoutube",
+    "fens": [
+      "6k1/ppq2p1p/3r1p2/2p5/1nP5/1P3Q1P/P1B2PP1/4R1K1 w - - 0 24",
+      "4R1k1/ppq2p1p/3r1p2/2p5/1nP5/1P3Q1P/P1B2PP1/6K1 b - - 1 24",
+      "4R3/ppq2pkp/3r1p2/2p5/1nP5/1P3Q1P/P1B2PP1/6K1 w - - 2 25",
+      "4R3/ppq2pkp/3r1p2/2p5/1nP5/1P4QP/P1B2PP1/6K1 b - - 3 25"
+    ]
+  },
+  {
+    "white": "Melike_peker",
+    "black": "msb2",
+    "fens": [
+      "6rk/pp4b1/1q1p4/8/8/1Pp3K1/P7/5R2 b - - 0 34",
+      "6rk/pp6/1q1p4/4b3/8/1Pp3K1/P7/5R2 w - - 1 35",
+      "6rk/pp6/1q1p4/4b3/8/1Pp2K2/P7/5R2 b - - 2 35",
+      "7k/pp6/1q1p4/4b3/8/1Pp2Kr1/P7/5R2 w - - 3 36"
+    ]
+  },
+  {
+    "white": "msb2",
+    "black": "PGH256",
+    "fens": [
+      "2k3r1/pp2p1bR/4p3/2N1PnR1/3r1BK1/6P1/PPP5/8 w - - 21 32",
+      "2k3r1/pp2p1bR/4N3/4PnR1/3r1BK1/6P1/PPP5/8 b - - 0 32",
+      "2k3r1/pp2p1bR/4N3/4PnR1/r4BK1/6P1/PPP5/8 w - - 1 33",
+      "2k3r1/pp2p1bR/4N3/4PKR1/r4B2/6P1/PPP5/8 b - - 0 33"
+    ]
+  },
+  {
+    "white": "msb2",
+    "black": "PGH256",
+    "fens": [
+      "r2Q4/kp2P3/p1p5/8/8/4P1PK/P6P/8 w - - 1 35",
+      "Q7/kp2P3/p1p5/8/8/4P1PK/P6P/8 b - - 0 35",
+      "Q7/1p2P3/pkp5/8/8/4P1PK/P6P/8 w - - 1 36",
+      "Q3Q3/1p6/pkp5/8/8/4P1PK/P6P/8 b - - 0 36"
+    ]
+  },
+  {
+    "white": "msb2",
+    "black": "akohli47",
+    "fens": [
+      "2rq1rk1/1b3ppp/pnn2b2/1p1N4/8/1P3NP1/PB2QPBP/R2R2K1 w - - 1 19",
+      "2rq1rk1/1b3ppp/pnn2N2/1p6/8/1P3NP1/PB2QPBP/R2R2K1 b - - 0 19",
+      "2rq1rk1/1b3p1p/pnn2p2/1p6/8/1P3NP1/PB2QPBP/R2R2K1 w - - 0 20",
+      "2rR1rk1/1b3p1p/pnn2p2/1p6/8/1P3NP1/PB2QPBP/R5K1 b - - 0 20"
+    ]
+  },
+  {
+    "white": "akohli47",
+    "black": "msb2",
+    "fens": [
+      "3r4/7p/r7/3kB3/3PR3/4K2P/5PP1/8 b - - 0 47",
+      "3r4/7p/8/3kB3/3PR3/r3K2P/5PP1/8 w - - 1 48",
+      "3r4/7p/8/3kB3/3PRK2/r6P/5PP1/8 b - - 2 48",
+      "5r2/7p/8/3kB3/3PRK2/r6P/5PP1/8 w - - 3 49"
+    ]
+  },
+  {
+    "white": "msb2",
+    "black": "akohli47",
+    "fens": [
+      "3r4/4kp1Q/2p1p1p1/2Pr4/5PR1/4P3/2P3P1/6K1 w - - 3 37",
+      "3r4/4kp1Q/2p1p1R1/2Pr4/5P2/4P3/2P3P1/6K1 b - - 0 37",
+      "3r4/4kp1Q/2p1p1R1/2P5/5P2/4P3/2P3P1/3r2K1 w - - 1 38",
+      "3r4/4kp1Q/2p1p1R1/2P5/5P2/4P3/2P3PK/3r4 b - - 2 38"
+    ]
+  },
+  {
+    "white": "GOD_OF_CHESS2026",
+    "black": "msb2",
+    "fens": [
+      "3r1rk1/pp3ppp/2b5/2q1Pp2/5P2/2B5/PP3QPP/3R1R1K b - - 1 23",
+      "3r1rk1/pp3ppp/2b5/4Pp2/5P2/2B5/PP3qPP/3R1R1K w - - 0 24"
+    ]
+  },
+  {
+    "white": "msb2",
+    "black": "GOD_OF_CHESS2026",
+    "fens": [
+      "8/8/4pQ2/4Q3/3P4/p3P3/P2k1KP1/8 w - - 0 45",
+      "8/8/4Q3/4Q3/3P4/p3P3/P2k1KP1/8 b - - 0 45",
+      "8/8/4Q3/4Q3/3P4/p1k1P3/P4KP1/8 w - - 1 46",
+      "8/8/4Q3/4Q3/3P2P1/p1k1P3/P4K2/8 b - - 0 46"
+    ]
+  }
+]

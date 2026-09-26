@@ -1,0 +1,59 @@
+
+    .sidepanel {
+        width: 320px;
+        min-height: 500px;
+        padding: 30px;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 14px;
+
+        background: #3b2922;
+        border: 2px solid #d6a84f;
+        border-radius: 8px;
+
+        color: #f5d58a;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .sidepanel h2 {
+        margin: 0 0 8px;
+        font-size: 22px;
+        text-align: center;
+        color: #f5d58a;
+    }
+
+    .sidepanel h3 {
+        margin: 0;
+        font-size: 17px;
+        font-weight: 500;
+        color: #f0d9b5;
+    }
+
+    .sidepanel button {
+        margin-top: 10px;
+        padding: 12px 16px;
+
+        border: 2px solid #d6a84f;
+        border-radius: 6px;
+
+        background: #d6a84f;
+        color: #2b1d18;
+
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+
+        transition: 0.2s;
+    }
+
+    .sidepanel button:hover {
+        background: #f0c766;
+    }
+
+    .sidepanel button:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }

@@ -1,0 +1,64 @@
+.board{
+    height:600px;
+    width:600px;
+    padding:2px;
+    display:grid;
+    grid-template-columns: repeat(8,75px);
+    grid-template-rows: repeat(8,75px);
+    gap:2px;
+    background-color: black;
+    border:3px solid 573a2e;
+    margin-top: 50px;;
+}
+.wholebody{
+    display:flex;
+    justify-content: space-around;
+}
+#sidemove{
+    font-size:24px;
+    color:#fccc74;
+    width:200px;
+
+}
+.names{
+    color:"white";
+    margin-top:320px;
+}
+
+.black{
+    height: 75px;
+    width: 75px;
+    background-color: #573a2e;
+    border:2px solid black;
+}
+.white{
+    height: 75px;
+    width: 75px;
+    background-color: #fccc74;
+    border:2px solid black;
+}
+
+.pieces{
+    z-index :2;
+    height: 75px;
+    width: 75px;
+    pointer-events: none;
+}
+
+.selected{
+    border-color:2px solid brown;
+    
+}
+.Hint{
+    background-color: rgb(35, 124, 35);
+}
+.legal{
+    background-color: brown;
+}
+.check{
+    background-color: rgb(246, 45, 45);
+}
+.gamover{
+    background-color: red;
+}
+
