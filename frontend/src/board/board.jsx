@@ -1,11 +1,10 @@
-import React,{ useState, useEffect, useRef } from 'react'
+import React,{ useState, useRef, useEffect } from 'react'
 import './board.css'
 import {pieces} from '../assets/pieces'
 import { Chess } from "chess.js"
 import Promui from './promui'
 import SidePanel from "./SidePanel"
 
-// const initfen = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
 function Board(){
 
     const chessRef = useRef(null)
@@ -19,33 +18,59 @@ function Board(){
     const [gameover,setGameover] = useState(false)
     const [nextmove,setNextmove] = useState(null)
     const [promui,setPromui] = useState(false)
-    const pindex = useRef(0)  
-    const findex = useRef(1)   
+    const pindex = useRef(0)
+    const findex = useRef(1)
     const [sidetomove,setSide] = useState("")
     const [hintSquare, setHintSquare] = useState(null)
     const [allDone,setAllDone] = useState(false)
 
-    
-    
+    const [started,setStarted] = useState(false)
+    const [loading,setLoading] = useState(false)
+    const [loadError,setLoadError] = useState(false)
+    const [generating,setGenerating] = useState(false)
+
     function loadPuzzles(){
-        fetch("/api/puzzles")
+        setLoading(true)
+        setLoadError(false)
+        fetch("http://localhost:5000/api/puzzles")
         .then(r => r.json())
         .then(data => {
-        puzzlesRef.current = data
-        pindex.current = 0
-        findex.current = 0
-        initFromFen(data[0].fens[0])
-        setSide(sidemove(data[0].fens[0].split(" ")[1]))
+            if(!data || data.length === 0){
+                setLoadError(true)
+                setLoading(false)
+                return
+            }
+            puzzlesRef.current = data
+            pindex.current = 0
+            findex.current = 0
+            initFromFen(data[0].fens[0])
+            setSide(sidemove(data[0].fens[0].split(" ")[1]))
+            setStarted(true)
+            setLoading(false)
         })
         .catch(err =>{
             console.error("fetch error:",err)
+            setLoadError(true)
+            setLoading(false)
         })
     }
-    useEffect(() => {
-        loadPuzzles()
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [])
 
+    async function handleGenerate(){
+        setGenerating(true)
+        try{
+            const response = await fetch("http://localhost:5000/api/generate-new",{ method:"POST" })
+            if(!response.ok){
+                throw new Error("Puzzle Generaion Failed")
+            }
+            loadPuzzles()
+        }
+        catch(error){
+            console.error(error)
+        }
+        finally{
+            setGenerating(false)
+        }
+    }
 
     const sidemove = (s) => {
         return s === "b" ? "Black" :"White"
@@ -87,6 +112,18 @@ function Board(){
         setHintSquare(false)
         setAllDone(false)
     }
+
+    function goToPuzzle(index){
+        if(!puzzlesRef.current) return
+        if(index < 0 || index >= puzzlesRef.current.length) return
+        pindex.current = index
+        findex.current = 0
+        initFromFen(puzzlesRef.current[index].fens[0])
+        setSide(sidemove(puzzlesRef.current[index].fens[0].split(" ")[1]))
+    }
+
+    function handleNext(){ goToPuzzle(pindex.current + 1) }
+    function handlePrev(){ goToPuzzle(pindex.current - 1) }
 
     function handleHint() {
         const puzzle = puzzlesRef.current?.[pindex.current]
@@ -146,8 +183,10 @@ function Board(){
     }
 
     const handleSelection =(i,j) =>{
+        if(!started || !chessRef.current) return
+
         let square = `${String.fromCharCode(97+j)}${8 -i}`
-        
+
         if (promui) {
             cleanProm();
             return;
@@ -304,30 +343,81 @@ function Board(){
         }
     }
 
+    function squareToRC(square){
+        const col = square.charCodeAt(0) - 97
+        const row = 8 - parseInt(square[1], 10)
+        return {row,col}
+    }
+
+    let promStyle = null
+    if(promui && nextmove){
+        const {row,col} = squareToRC(nextmove.to)
+        const top = nextmove.color === 'w' ? row : row - 3
+        promStyle = { left:`${col*12.5}%`, top:`${top*12.5}%` }
+    }
+
+    const totalPuzzles = puzzlesRef.current?.length ?? 0
+    const puzzleNum = totalPuzzles ? pindex.current+1 : 0
+
     return(
-        puzzlesRef.current && (
     <div className="wholebody">
         <div className='board'>
             {squares}
-            {promui && <Promui onselect={handlePromotion} oncancel={cleanProm} color={nextmove?.color}/>}
-            <p id="sidemove">{sidetomove} to Move</p>
-        </div>
-        {allDone && (
-            <div>
-                <h2> All Puzzles are over!</h2>
-                <p> Click Generate Puzzles to get more :)</p>
-            </div>
-        )}
 
-        <SidePanel 
-        white={puzzlesRef.current?.[pindex.current]?.white ?? ""}
-        black={puzzlesRef.current?.[pindex.current]?.black ?? ""}
-        onHint={handleHint}
-        onGenerated={loadPuzzles}
-        />
-        
+            {!started && !loading && (
+                <div className="board-overlay">
+                    <h1 className="overlay-title">Puzzle Drill</h1>
+                    <p className="overlay-sub">Practice free puzzles generated from games played by GMs on Lichess.</p>
+                    <button className="btn btn-primary" onClick={loadPuzzles}>
+                        {loadError ? "Try Again" : "Start"}
+                    </button>
+                    {loadError && <p className="overlay-error">Couldn't reach the puzzle server.</p>}
+                </div>
+            )}
+
+            {loading && (
+                <div className="board-overlay">
+                    <div className="spinner" />
+                    <p className="overlay-sub">Loading puzzles…</p>
+                </div>
+            )}
+
+            {promui && (
+                <Promui onselect={handlePromotion} oncancel={cleanProm} color={nextmove?.color} style={promStyle}/>
+            )}
+
+            
+
+            {allDone && (
+                <div className="board-overlay">
+                    <h2 className="overlay-title">Puzzles completed.</h2>
+                    <p className="overlay-sub">All puzzles are over, click Generate for more.</p>
+                    <button className="btn btn-primary" onClick={handleGenerate} disabled={generating}>
+                        {generating ? "Generating…" : "Generate more"}
+                    </button>
+                </div>
+            )}
+        </div>
+        {started && !loading && !allDone && (
+                        <p id="sidemove">{sidetomove} to move</p>
+                    )}
+        {started && (
+            <SidePanel 
+            white={puzzlesRef.current?.[pindex.current]?.white ?? ""}
+            black={puzzlesRef.current?.[pindex.current]?.black ?? ""}
+            onHint={handleHint}
+            onGenerate={handleGenerate}
+            generating={generating}
+            onNext={handleNext}
+            onPrev={handlePrev}
+            canNext={pindex.current < totalPuzzles-1}
+            canPrev={pindex.current > 0}
+            puzzleNum={puzzleNum}
+            totalPuzzles={totalPuzzles}
+            />
+        )}
     </div>
-    ));
+    );
 }
 
 export default Board;

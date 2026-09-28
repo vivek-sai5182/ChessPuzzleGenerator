@@ -131,6 +131,11 @@ function write(url,games,count){
   
   for(const game of games){
       // console.log(game.winner)
+      if (!game.moves) {
+          console.log("Skipping game without moves:", game);
+          continue;
+      }
+      
       let movesray = game.moves.split(" ")
       if(movesray.length<30 || movesray.length >99 || !game.winner) continue;
 
