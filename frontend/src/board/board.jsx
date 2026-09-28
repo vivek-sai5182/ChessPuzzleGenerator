@@ -1,4 +1,4 @@
-import React,{ useState, useEffect, useRef } from 'react'
+import React,{ useState, useEffect, useRef,useCallback } from 'react'
 import './board.css'
 import {pieces} from '../assets/pieces'
 import { Chess } from "chess.js"
@@ -25,11 +25,9 @@ function Board(){
     const [hintSquare, setHintSquare] = useState(null)
     const [allDone,setAllDone] = useState(false)
 
-    useEffect(() => {
-        loadPuzzles()
-    }, [])
     
-    function loadPuzzles(){
+    
+    const loadPuzzles = useCallback(() =>{
         fetch("http://localhost:5000/api/puzzles")
         .then(r => r.json())
         .then(data => {
@@ -42,7 +40,12 @@ function Board(){
         .catch(err =>{
             console.error("fetch error:",err)
         })
-    }
+    },[])
+
+    useEffect(() => {
+            loadPuzzles()
+        }, [loadPuzzles])
+
     const sidemove = (s) => {
         return s === "b" ? "Black" :"White"
     }
