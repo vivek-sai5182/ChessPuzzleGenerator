@@ -41,10 +41,10 @@ function Board(){
             console.error("fetch error:",err)
         })
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
-        loadPuzzles()
-    }, [])
+    loadPuzzles()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+}, [])
 
 
     const sidemove = (s) => {
