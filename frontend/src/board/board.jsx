@@ -27,7 +27,7 @@ function Board(){
 
     
     
-    const loadPuzzles = useCallback(() =>{
+    function loadPuzzles(){
         fetch("http://localhost:5000/api/puzzles")
         .then(r => r.json())
         .then(data => {
@@ -40,11 +40,12 @@ function Board(){
         .catch(err =>{
             console.error("fetch error:",err)
         })
-    },[])
-
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
-            loadPuzzles()
-        }, [loadPuzzles])
+        loadPuzzles()
+    }, [])
+
 
     const sidemove = (s) => {
         return s === "b" ? "Black" :"White"
