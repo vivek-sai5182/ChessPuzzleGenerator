@@ -4,7 +4,7 @@ import {exec} from 'child_process'
 import cors from "cors"
 
 const app = express()
-const port =5000
+const port = process.env.PORT || 5000
 
 app.use(cors())
 app.get("/", (req, res) => {
@@ -95,6 +95,6 @@ app.get("/api/puzzles",(req,res)=>{
     })
 })
 
-app.listen(port,()=>{
+app.listen(port,"0.0.0.0",()=>{
     console.log(`running on ${port}`)
 })

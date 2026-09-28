@@ -4,7 +4,8 @@ public class StockfishEng {
     private static Process process;
     private static BufferedReader BReader;
     private static BufferedWriter BWriter;
-    static String path = "stockfish/stockfish-windows-x86-64-avx2.exe";
+    static String path = System.getProperty("os.name").toLowerCase().contains("win")
+        ? "stockfish/stockfish-win/stockfish-windows-x86-64-avx2.exe" : "stockfish/stockfish-linux/stockfish-linux-x86-64-universal" ;
     public static final int EVAL_ERROR = 200000;
 
     public static boolean startEng(String path){

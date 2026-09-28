@@ -1,0 +1,17 @@
+FROM node:22-bookworm
+
+RUN apt-get update && apt-get install -y openjdk-17-jdk && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+COPY . .
+
+RUN chmod +x stockfish/stockfish-linux/stockfish-linux-x86-64-universal
+
+RUN javac getPuzzles.java MiddleLayer.java StockfishEng.java
+
+RUN npm install
+
+EXPOSE 10000
+
+CMD ["node", "server.js"]
