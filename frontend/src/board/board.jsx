@@ -28,7 +28,7 @@ function Board(){
     
     
     function loadPuzzles(){
-        fetch("http://localhost:5000/api/puzzles")
+        fetch("/api/puzzles")
         .then(r => r.json())
         .then(data => {
         puzzlesRef.current = data
@@ -42,9 +42,9 @@ function Board(){
         })
     }
     useEffect(() => {
-    loadPuzzles()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-}, [])
+        loadPuzzles()
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
 
 
     const sidemove = (s) => {

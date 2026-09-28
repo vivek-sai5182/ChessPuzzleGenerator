@@ -9,7 +9,7 @@ function SidePanel({white,black,onHint,onGenerated}) {
     setGenerating(true)
 
     try{
-      const response = await fetch("http://localhost:5000/api/generate-new",{
+      const response = await fetch("/api/generate-new",{
         method:"POST"
       })
 
