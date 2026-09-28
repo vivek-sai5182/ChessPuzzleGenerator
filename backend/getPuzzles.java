@@ -15,7 +15,8 @@ class Puzzle {
 }
 
 public class getPuzzles{
-    static String stockfishPath = "stockfish/stockfish-windows-x86-64-avx2.exe"; 
+    static String stockfishPath =System.getProperty("os.name").toLowerCase().contains("win")
+        ? "stockfish/stockfish-win/stockfish-windows-x86-64-avx2.exe" : "stockfish/stockfish-linux/stockfish-linux-x86-64-universal" ; 
     static String gamesPath = "gamesFens.txt";
     static int depth = 10;
     static int jumpval = 500;
