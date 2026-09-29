@@ -32,7 +32,7 @@ function Board(){
     function loadPuzzles(){
         setLoading(true)
         setLoadError(false)
-        fetch("http://localhost:5000/api/puzzles")
+        fetch("/api/puzzles")
         .then(r => r.json())
         .then(data => {
             if(!data || data.length === 0){
@@ -58,7 +58,7 @@ function Board(){
     async function handleGenerate(){
         setGenerating(true)
         try{
-            const response = await fetch("http://localhost:5000/api/generate-new",{ method:"POST" })
+            const response = await fetch("/api/generate-new",{ method:"POST" })
             if(!response.ok){
                 throw new Error("Puzzle Generaion Failed")
             }
